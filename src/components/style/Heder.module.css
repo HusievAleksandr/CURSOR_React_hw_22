@@ -1,0 +1,41 @@
+.header{
+    position: relative;
+    top: 0px;
+    margin-top: 10px;  
+    width: 90%; 
+    margin: 0 auto;
+    font-size: 16px;
+    text-align: left;
+    display: block;
+  }
+  
+  
+  .header_button {  
+    position: absolute;
+    left: 45%;
+     width: 100px;
+     height: 40px;
+     margin: 10px;
+     font-size: 16px;
+     color: rgb(248, 248, 246);
+     background-color: rgba(37, 52, 72, 0.705);
+     background-clip: padding-box;
+     border: 1px solid rgb(37, 52, 72);
+     border-radius: 0.25rem;
+     transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+     border-bottom: 5px solid rgb(37, 52, 72);
+     cursor: pointer;
+    } 
+  
+  .header_button:hover {
+    background-color: rgba(7, 108, 139, 0.349); 
+    color: rgb(58, 45, 179);
+  }
+  
+  .header_button:active {
+    border: none;
+  }
+
+  .header>label {    
+    margin-top: 10px;
+  }
