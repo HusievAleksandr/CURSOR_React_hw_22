@@ -63,7 +63,7 @@ function App() {
                     <textarea ref={textContent} className="form-control" aria-label="With textarea"></textarea>
                 </div>
 
-                <button onClick={onClick} className={styles['header_button']}>Search</button>
+                <button onClick={onClick} className={styles['header_button']}>Publish</button>
 
 
             </div>
